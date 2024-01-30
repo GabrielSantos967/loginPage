@@ -35,3 +35,16 @@ button{
 button:hover{
     background-color: rgb(69, 69, 255);
 }
+
+a{
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.904);
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+}
