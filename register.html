@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
@@ -14,17 +13,21 @@
         <input type="text" id="username" placeholder="Username">
         <br>
         <br>
-        <input type="password" placeholder="Password">
+        <input type="email" id="mail" placeholder="E-mail">
         <br>
         <br>
-        <input type="password" placeholder="Confirm password">
+        <input type="password" id="password" placeholder="Password">
         <br>
         <br>
-        <button onclick="alerta()">Signup</button>
+        <input type="password" id="cPassword" placeholder="Confirm password">
+        <br>
+        <br>
+        <button onclick="register()">Signup</button>
         <br>
         <br>
         <a href="login.html">Login</a>
     </div>
-    
+
+    <script src="script.js" defer></script>
 </body>
 </html>
