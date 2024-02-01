@@ -47,7 +47,7 @@ function login(){
         const user = users.find(user => user.email === email);
 
         if (user && user.password === password){
-            alert("login bem sucedido")
+            location.href = "endpage.html"
         }
         else {
             alert("nenhum usuario encontrado")

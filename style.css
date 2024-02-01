@@ -36,7 +36,7 @@ button:hover{
     background-color: rgb(69, 69, 255);
 }
 
-a{
+.pageButton{
     background-color: rgb(228, 228, 228);
     position: absolute;
     font-size: 15px;
@@ -45,6 +45,20 @@ a{
     color: rgba(0, 0, 0, 0.904);
     text-decoration: none;
 }
-a:hover{
+
+.loginButton {
+    background-color: rgb(46, 46, 255);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.loginButton:hover {
+    background-color: rgb(69, 69, 255);
+}
+
+.pageButton:hover{
     background-color: white;
 }
